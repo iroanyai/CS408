@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-Iroanya-Firstinitial\Shapes.h(12,26): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-Iroanya-Firstinitial\Shapes.h(12,23): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  A1-Iroanya-Firstinitial.vcxproj -> C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\Debug\A1-Iroanya-Firstinitial.exe

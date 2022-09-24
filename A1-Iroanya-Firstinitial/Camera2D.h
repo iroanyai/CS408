@@ -42,8 +42,6 @@ public:
 
 	void draw() {
 
-		Shapes::drawText(rect->x + 5, 30, "'G' - change green");
-
 	}
 
 };

@@ -12,15 +12,13 @@ protected:
 	int speed = 1;
 
 	Color color;
-
-	string name;
+	float lifeTime = 1;
 public:
 	
-	GameObject(Vec2 pos,Vec2 size,Color color,string name = "obj") {
+	GameObject(Vec2 pos,Vec2 size,Color color) {
 		this->pos = pos;
 		this->size = size;
 		this->color = color;
-		this->name = name;
 	}
 
 
@@ -42,9 +40,6 @@ public:
 		Shapes::drawRect(Rect(pos.x,pos.y,size.x,size.y),color);
 	}
 
-	string getName() {
-		return name;
-	}
 	
 	void setPos(Vec2 pos) {
 		this->pos = pos;

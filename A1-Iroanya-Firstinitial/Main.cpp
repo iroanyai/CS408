@@ -1,5 +1,6 @@
 #include "GameWindow.h"
-
+#include <iostream>
+#include <time.h>
 
 GameWindow* window;
 
@@ -22,12 +23,14 @@ void idle() {
 
 void timer(int value) {
     glutPostRedisplay();   
-    glutTimerFunc(30, timer, 0);
+    glutTimerFunc(1000/60, timer, 0); // 60 fps
 }
 
 // Main
 int main(int argc, char* argv[])
 {
+    srand(time(NULL));
+
     glutInit(&argc, argv); 
     window = new GameWindow();
    

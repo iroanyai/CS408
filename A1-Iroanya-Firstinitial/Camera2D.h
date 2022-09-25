@@ -1,6 +1,5 @@
 #include <GL/glut.h>
 #include "Vec.h"
-#include "GameObject.h"
 
 class Camera2D {
 

@@ -30,21 +30,12 @@ public:
     }
 
     static void drawShape1(Rect r, Color c) {
-        GLfloat verticles[] = {
-            320,240,0,
-            370,290,0,
-            420,240,0
-        };
-
+        int s = r.w;
+        float value = 0.5;
         glPushMatrix();
         glTranslatef(r.x, r.y, 0.0f);
         glBegin(GL_TRIANGLE_FAN);
         glColor4f(c.r, c.g, c.b, c.a);
-
-        int s = r.w;
-        float value = 0.5;
-
-        //50 % 25 %, 100 % 0, 75 % 50 %, 100 % 100 %, 50 % 75 %, 0 100 %, 25 % 50 %, 0 0
         glVertex2f(s/2, s/2);
         glVertex2f(s/2, s/4); // 1
         glVertex2f(s, 0);
@@ -57,23 +48,14 @@ public:
         glVertex2f(s / 2, s / 4); //1
         glEnd();
         glPopMatrix();
-
     }
 
     static void drawShape2(Rect r, Color c) {
-        GLfloat verticles[] = {
-            320,240,0,
-            370,290,0,
-            420,240,0
-        };
-
+        int s = r.w;
         glPushMatrix();
         glTranslatef(r.x, r.y, 0.0f);
         glBegin(GL_TRIANGLE_FAN);
-
-        int s = r.w;
-
-        //polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
+        glColor4f(c.r, c.g, c.b, c.a);
         glVertex2f(s / 2, s / 2);
         glVertex2f(s / 2, 0); // 1
         glVertex2f(s, 0);
@@ -89,20 +71,11 @@ public:
     }
 
     static void drawShape3(Rect r, Color c) {
-        GLfloat verticles[] = {
-            320,240,0,
-            370,290,0,
-            420,240,0
-        };
-
+        int s = r.w;
         glPushMatrix();
         glTranslatef(r.x, r.y, 0.0f);
         glBegin(GL_TRIANGLE_FAN);
         glColor4f(c.r, c.g, c.b, c.a);
-
-        int s = r.w;
-
-        //polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
         glVertex2f(s / 2, s / 2);
         glVertex2f(s / 2, -(s / 4)); // 1
         glVertex2f(s, 0);
@@ -119,19 +92,11 @@ public:
 
 
     static void drawShape4(Rect r, Color c) {
-        GLfloat verticles[] = {
-            320,240,0,
-            370,290,0,
-            420,240,0
-        };
-
+        int s = r.w;
         glPushMatrix();
         glTranslatef(r.x, r.y, 0.0f);
         glBegin(GL_TRIANGLE_FAN);
-
-        int s = r.w;
-
-        //polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
+        glColor4f(c.r, c.g, c.b, c.a);
         glVertex2f(s / 2, s / 2);
         glVertex2f(s / 2, -(s / 2)); // 1
         glVertex2f(s, 0);
@@ -147,19 +112,11 @@ public:
     }
 
     static void drawShape5(Rect r, Color c) {
-        GLfloat verticles[] = {
-            320,240,0,
-            370,290,0,
-            420,240,0
-        };
-
+        int s = r.w;
         glPushMatrix();
         glTranslatef(r.x, r.y, 0.0f);
         glBegin(GL_TRIANGLE_FAN);
-
-        int s = r.w;
-
-        //polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
+        glColor4f(c.r, c.g, c.b, c.a);
         glVertex2f(s / 2, s / 2);
         glVertex2f(s / 2, -(s)); // 1
         glVertex2f(s, 0);

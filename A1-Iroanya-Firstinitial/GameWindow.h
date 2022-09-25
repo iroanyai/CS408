@@ -10,6 +10,7 @@ using namespace std;
 class GameWindow {
 	int x = 2;
 	Game *game;
+	float old_t;
 public:
 	int WIDTH, HEIGHT;
 
@@ -69,11 +70,18 @@ public:
 	}
 
 	void update() {
-		glClearColor(0.2f, 0.2f, 0.2f, 0.2f);
+		int t;
+		float dt;
+		t = glutGet(GLUT_ELAPSED_TIME);
+		dt = (t - old_t) / 1000.0;
+		old_t = t;
+		//printf("delta time : %f\n", dt);
+
+		glClearColor(0.01f, 0.01f, 0.01f, 0.3f);
 		glClear(GL_COLOR_BUFFER_BIT);
 		glMatrixMode(GL_MODELVIEW);    
 		glLoadIdentity();
-		game->update();
+		game->update(dt);
 		game->draw();
 		glutSwapBuffers();
 	}
@@ -81,6 +89,8 @@ public:
 	void start() {
 		glClearColor(0.2f, 0.2f, 0.2f, 0.2f);
 		glClear(GL_COLOR_BUFFER_BIT);
+
+		old_t = glutGet(GLUT_ELAPSED_TIME);
 	}
 
 };

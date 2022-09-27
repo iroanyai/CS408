@@ -1,0 +1,46 @@
+NAME: IROANYA IFEANYICHUKWU
+STUDENT NO: 200371504
+CS408 ASSIGMENT 1
+
+
+What is my creative feature?
+
+1. Random color : press 1 to start shuffling all the sizes and 2 again to stop the shuffle of the particle sizes
+
+2. Random size: press 2 to start shuffling all the sizes and 2 again to stop the shuffle of the particle sizes
+
+3. Random shape: press 3 to start shuffling all the shapes and 3 again to stop the shuffle of the particle shapes
+
+
+Where it is present in the code
+
+1. My creative feature is in my Game.h file and I added the function
+		void creative() {
+		if (randomColor) {
+			float r = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+			float g = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+			float b = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+			printf("%f %f %f \n", r, g, b);
+			color = Color(r, g, b, color.a);
+		}
+		
+		if (randomSize) {
+			size = 1 + (rand() % 200);
+		}
+		if (randomShape) {
+			shape = 0 + (rand() % 4);
+		}
+	}
+
+I called the function here void update(float deltaTime)
+
+On my GAME.h file, my creative feature code can be found on these lines
+	i. line 26-31
+	ii. line 54
+	iii. line 76-92
+	iv. line 196-206
+	v. line 241-244
+	vi. line 260-263
+	
+
+

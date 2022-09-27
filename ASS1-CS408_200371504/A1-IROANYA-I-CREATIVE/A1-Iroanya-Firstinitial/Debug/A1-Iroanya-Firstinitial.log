@@ -1,0 +1,108 @@
+﻿  Main.cpp
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(15,26): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(15,23): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(33,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(39,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(39,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(40,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(40,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(41,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(42,30): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(42,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(43,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(43,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(44,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(44,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(45,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(46,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(46,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(48,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(48,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(54,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(59,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(59,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(60,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(61,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(62,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(62,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(63,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(63,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(64,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(64,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(65,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(66,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(68,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(74,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(79,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(79,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(80,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(80,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(81,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(82,35): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(82,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(83,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(83,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(84,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(84,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(85,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(86,32): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(86,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(88,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(88,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(95,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(100,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(100,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(101,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(101,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(102,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(103,35): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(103,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(104,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(104,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(105,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(105,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(106,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(107,32): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(107,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(109,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(109,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(115,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(120,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(120,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(121,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(121,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(122,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(123,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(123,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(124,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(124,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(125,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(125,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(126,23): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(127,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(127,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(129,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Shapes.h(129,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Utils.h(51,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(58,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(58,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(61,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(90,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(96,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(97,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(102,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(137,1): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(140,1): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(143,1): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(146,1): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(149,1): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(152,1): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(155,1): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(158,1): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(247,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Game.h(249,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\GameWindow.h(81,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\GameWindow.h(82,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\GameWindow.h(98,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\A1-Iroanya-Firstinitial\Main.cpp(35,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  A1-Iroanya-Firstinitial.vcxproj -> C:\Users\User\Downloads\ASS1-CS408_200371504\A1-IROANYA-I-CREATIVE\Debug\A1-Iroanya-Firstinitial.exe

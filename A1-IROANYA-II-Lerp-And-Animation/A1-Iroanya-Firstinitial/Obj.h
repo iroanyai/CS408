@@ -12,6 +12,7 @@ class Obj {
 public:
 	float posX, posY, posZ, rX, rY, rZ, sX, sY, sZ;
 	float alpha = 1;
+	float r = 1, g = 1, b = 1;
 
 	Obj(int id, string name) {
 		this->id = id;

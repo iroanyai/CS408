@@ -102,18 +102,14 @@ C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animatio
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\Shapes.h(141,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\Shapes.h(141,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\Utils.h(64,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(77,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(81,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(82,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(111,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(117,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(118,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(88,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(92,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(93,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(128,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(134,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\AnimationTest.h(135,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\Game.h(42,21): warning C4018: '<': signed/unsigned mismatch
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\Game.h(44,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\Game.h(48,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\Game.h(51,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\Game.h(54,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\Game.h(57,1): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\GameWindow.h(82,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\GameWindow.h(83,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-II-Lerp-And-Animation\A1-Iroanya-Firstinitial\GameWindow.h(99,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data

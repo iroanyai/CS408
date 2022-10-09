@@ -26,6 +26,7 @@ public:
 	float positionX, positionY, positionZ;
 	float rotationX, rotationY, rotationZ;
 	float scaleX, scaleY, scaleZ;
-	float alpha = 1;
+	float alpha = 1; //creative
+	float r = 1, g = 1, b = 1; //creative
 
 };

@@ -44,7 +44,7 @@ public:
 			Obj* obj = aniTest.getObjAtTime(keyTime, i);
 
 			Color color(1, 1, 0);
-			if (i == 0) {
+			/*if (i == 0) {
 				color = Color(0.5, 0.8, 0.2);
 			}
 			if (i == 1) {
@@ -55,9 +55,15 @@ public:
 			}
 			if (i == 5) {
 				color = Color(0.502, 0.110, 0.580);
-			}
+			}*/
 
+			color.r = obj->r;
+			color.g = obj->g;
+			color.b = obj->b;
 			color.a = obj->alpha;
+
+
+
 
 			Shapes::drawRect(Rect(0, 0, 50, 50),
 				obj->posX, obj->posY, obj->posZ,

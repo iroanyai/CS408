@@ -43,9 +43,20 @@ public:
 					float scaleZ = stof(strs[11]);
 					KeyFrame keyFrame(time,positionX,positionY,positionZ,rotationX,rotationY,rotationZ,scaleX,scaleY,scaleZ);
 
+					//  creative
 					if (strs[12] != "") {
-						keyFrame.alpha = stof(strs[12]);
+						keyFrame.r = stof(strs[12]);
 					}
+					if (strs[13] != "") {
+						keyFrame.g = stof(strs[13]);
+					}
+					if (strs[14] != "") {
+						keyFrame.b = stof(strs[14]);
+					}
+					if (strs[15] != "") {
+						keyFrame.alpha = stof(strs[15]);
+					}
+					//
 
 					if (obj->getKeyFrames().size() > 0 && time < obj->getKeyFrames()[obj->getKeyFrames().size() - 1].time) {
 						printf("Object %d have keyframe error\n", stoi(strs[1]));
@@ -92,10 +103,16 @@ public:
 
 				//creative
 				float alpha = Utils::lerp(keyFrame.alpha, nextKeyFrame.alpha, (float)curTime / (float)maxTime);
+				float r = Utils::lerp(keyFrame.r, nextKeyFrame.r, (float)curTime / (float)maxTime);
+				float g = Utils::lerp(keyFrame.g, nextKeyFrame.g, (float)curTime / (float)maxTime);
+				float b = Utils::lerp(keyFrame.b, nextKeyFrame.b, (float)curTime / (float)maxTime);
 
 				if (itime == time) {
 					obj->updateAtrr(pX, pY, pZ, rX, rY, rZ, sX, sY, sZ);
 					obj->alpha = alpha; // creative
+					obj->r = r; //creative
+					obj->g = g; //creative
+					obj->b = b; //creative
 					break;
 				}
 			}

@@ -25,6 +25,15 @@ class Game {
 
 	vector<Vec3> points;
 	Curve* curve = new BSpline();
+
+
+	double sphereX = 0;
+	double sphereY = 0;
+
+	float tesetTime = 0;
+	int i = 0;
+
+	vector<Vec3> pointsToTravel;
 public:
 
 	Game() {
@@ -54,21 +63,62 @@ public:
 			curve->add_way_point(Vector(point.x,point.y,point.z));
 		}
 
-		std::cout << "nodes: " << curve->node_count() << std::endl;
-		std::cout << "total length: " << curve->total_length() << std::endl;
-		for (int i = 0; i < curve->node_count(); ++i) {
-			std::cout << "node #" << i << ": " << curve->node(i).toString() << " (length so far: " << curve->length_from_starting_point(i) << ")" << std::endl;
+
+		float totalDist = getTotalDist();
+		float sD = totalDist / 50;
+		
+
+		pointsToTravel.push_back(Vec3(curve->node(0).x, curve->node(0).y,30));
+
+		float disc = 0;
+		for (int i = 0; i < curve->node_count() - 1; i++) {
+
+			float d = Utils::distance(Vec2(curve->node(i).x, curve->node(i).y), Vec2(curve->node(i + 1).x, curve->node(i + 1).y));
+			disc += d;
+			if (disc >= sD) {
+				disc = 0;
+				pointsToTravel.push_back(Vec3(curve->node(i).x, curve->node(i).y, 30));
+			}
 		}
 
+
+
+		sphereX = curve->node(i).x;
+		sphereY = curve->node(i).y;
+	}
+
+	float getTotalDist() {
+		float d = 0;
+		for (int i = 0; i < curve->node_count() - 1; i++) {
+
+			d += Utils::distance(Vec2(curve->node(i).x, curve->node(i).y), Vec2(curve->node(i + 1).x, curve->node(i + 1).y));
+		}
+		return d;
 	}
 
 
 	void update(float deltaTime) {
 
-	
+		if (countTime >= 0) {
+			countTime = 0;
+			keyTime += 1;
+		}
+
+		tesetTime += deltaTime;
+
+		//float pX = Utils::lerp(keyFrame.positionX, nextKeyFrame.positionX, (float)curTime / (float)5);
 
 
-
+		//cout << tesetTime << "\n";
+		if (tesetTime >= 0.1) {
+			tesetTime = 0;
+			sphereX = pointsToTravel[i].x;
+			sphereY = pointsToTravel[i].y;
+			i+= 1;
+			if (i >= pointsToTravel.size()) {
+				i = 0;
+			}
+		}
 	}
 	
 	//this function take char input from the user
@@ -81,25 +131,21 @@ public:
 
 	void draw() {
 
-		glLineWidth(1);
-		//Shapes::drawSpere(points[0].x, points[0].y, points[0].z, 5.0f);
 
-		//Shapes::drawPoint(30,30,30);
-		//Shapes::drawPoint(points[0].x, 30, 30);
-
-
-		for (Vec3 point : points) {
+	/*	for (Vec3 point : points) {
 			Shapes::drawPoint(point.x,point.y,point.z);
-		}
+		}*/
 		
+
 		// for draw curve
 
 		for (int i = 0; i < curve->node_count() - 1; i++) {
-			//glVertex3f(curve->node(i).x, curve->node(i).y, curve->node(i).z);
-			
 			Shapes::drawLine( curve->node(i).x, curve->node(i).y, curve->node(i + 1).x, curve->node(i + 1).y);
-
 		}
+
+		glLineWidth(1);
+		Shapes::drawSpere(sphereX, sphereY, 30, 3.0f);
+
 		
 	}
 };

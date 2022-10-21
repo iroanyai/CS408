@@ -102,16 +102,31 @@ C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iro
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Shapes.h(179,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Shapes.h(179,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Utils.h(64,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(40,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(43,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(44,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(45,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(46,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(47,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(100,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(100,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(100,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(100,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(49,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(52,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(53,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(54,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(55,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(56,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(71,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(71,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(76,67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(76,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(76,117): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(76,95): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(80,67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(80,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(94,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(94,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(94,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(94,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(118,10): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(143,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(143,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(143,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(143,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(147,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\Game.h(147,21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\GameWindow.h(204,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\GameWindow.h(205,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-III-EaseInOut\A1-Iroanya-Firstinitial\GameWindow.h(254,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data

@@ -32,7 +32,7 @@ public:
         Sphere sphere = Sphere(radius, 36, 18);
 
         // line color
-        float lineColor[] = { 0.6f, 0.2f, 0.2f, 1 };
+        float lineColor[] = { 0.6f, 0.6f, 0.2f, 1 };
         // draw centre smooth sphere with line
         glPushMatrix();
         glTranslatef(x, y, z);

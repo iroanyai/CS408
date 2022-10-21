@@ -1,0 +1,5 @@
+#pragma once
+
+.Creative
+
+- Add alpha color to Object

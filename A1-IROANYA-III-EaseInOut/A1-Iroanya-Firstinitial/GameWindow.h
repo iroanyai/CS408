@@ -63,6 +63,7 @@ public:
 	/*	glutMouseFunc(mouseCB);
 		glutMotionFunc(mouseMotionCB);*/
 
+		glPointSize(10);
 
 		game = new Game();
 
@@ -75,7 +76,7 @@ public:
 		glutReshapeFunc(reshape);
 		glutTimerFunc(0, timer, 0);
 
-		initGL();
+		//initGL(); use this for light
 		glutMainLoop();
 
 	}
@@ -93,6 +94,7 @@ public:
 		glEnable(GL_LIGHTING);
 		glEnable(GL_TEXTURE_2D);
 		glEnable(GL_CULL_FACE);
+
 
 		// track material ambient and diffuse from surface color, call it before glEnable(GL_COLOR_MATERIAL)
 		//glColorMaterial(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE);
@@ -151,13 +153,18 @@ public:
 
 	void toOrtho()
 	{
+		
+		int width = 100;
+		int heigh = 100;
+
 		// set viewport to be the entire window
 		glViewport(0, 0, (GLsizei)WIDTH, (GLsizei)HEIGHT);
 
 		// set orthographic viewing frustum
 		glMatrixMode(GL_PROJECTION);
 		glLoadIdentity();
-		glOrtho(0, WIDTH, HEIGHT, 0, 1, -1000);
+
+		glOrtho(-width/2, width/2, heigh/2, -heigh/2, 1, -1000);
 
 		// switch to modelview matrix in order to set scene
 		glMatrixMode(GL_MODELVIEW);
@@ -208,6 +215,10 @@ public:
 
 		// clear buffer
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
+		glClearColor(0.3f, 0.3f, 0.3f, 0.3f);
+		glMatrixMode(GL_MODELVIEW);
+		glLoadIdentity();
+
 
 		// save the initial ModelView matrix before modifying ModelView matrix
 		glPushMatrix();

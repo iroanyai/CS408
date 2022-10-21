@@ -8,7 +8,26 @@
 class Shapes {
 
 public:
-	
+
+
+    static void drawPoint(float x,float y,float z) {
+        glBegin(GL_POINTS);
+        glColor4f(1,1,1,1);
+        glVertex3f(x,y,z);
+        glEnd();
+    }
+
+    static void drawLine(float x1, float y1, float x2, float y2) {
+        glLineWidth(4);
+        glEnable(GL_COLOR_MATERIAL);
+        glColor3f(0.0f, 0.0f, 1.f);
+        glBegin(GL_LINES);
+        glVertex3f(x1,y1,30);
+        glVertex3f(x2,y2,30);
+        glEnd();
+        glDisable(GL_COLOR_MATERIAL);
+    }
+
     static void drawSpere(float x,float y,float z,float radius) {
         Sphere sphere = Sphere(radius, 36, 18);
 
@@ -21,7 +40,7 @@ public:
         glRotatef(0, 0, 1, 0);
         float static a = 1;
         a += 1;
-        glRotatef(-90 + a, 1, 1, 0);
+        glRotatef(a, 1, 1, 0);
         glBindTexture(GL_TEXTURE_2D, 0);
         sphere.drawWithLines(lineColor);
         glPopMatrix();

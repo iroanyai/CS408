@@ -22,6 +22,9 @@
     <Filter Include="Header Files\List">
       <UniqueIdentifier>{d50cf95d-e39c-4b52-b9ab-9b36303eb526}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Curve">
+      <UniqueIdentifier>{91cb0b55-9287-4376-a38a-4359171008e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera2D.h">
@@ -63,6 +66,15 @@
     <ClInclude Include="Sphere.h">
       <Filter>Header Files\List</Filter>
     </ClInclude>
+    <ClInclude Include="BSpline.h">
+      <Filter>Header Files\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve.h">
+      <Filter>Header Files\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\Curve</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -73,6 +85,15 @@
     </ClCompile>
     <ClCompile Include="Sphere.cpp">
       <Filter>Header Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="BSpline.cpp">
+      <Filter>Header Files\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve.cpp">
+      <Filter>Header Files\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Header Files\Curve</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

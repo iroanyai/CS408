@@ -67,6 +67,7 @@ public:
 
 		game = new Game();
 
+
 		//glutIdleFunc(idle);
 		glutSetKeyRepeat(GLUT_KEY_REPEAT_OFF);
         glutDisplayFunc(updateCallBack);

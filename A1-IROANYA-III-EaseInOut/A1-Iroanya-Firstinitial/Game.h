@@ -11,6 +11,8 @@
 #include "Sphere.h"
 #include "AnimationTest.h"
 #include "BSpline.h"
+
+#define PI 3.14159265
 class Game {
 
 	Camera2D* camera;
@@ -30,11 +32,16 @@ class Game {
 	double sphereX = 0;
 	double sphereY = 0;
 
-	float tesetTime = 0;
+	float time = 0;
 	int i = 0;
 
 	vector<Vec3> pointsToTravel;
+
+
+
+
 public:
+
 
 	Game() {
 		camera = new Camera2D();
@@ -65,7 +72,7 @@ public:
 
 
 		float totalDist = getTotalDist();
-		float sD = totalDist / 50;
+		float sD = totalDist / 100;
 		
 
 		pointsToTravel.push_back(Vec3(curve->node(0).x, curve->node(0).y,30));
@@ -81,8 +88,6 @@ public:
 			}
 		}
 
-
-
 		sphereX = curve->node(i).x;
 		sphereY = curve->node(i).y;
 	}
@@ -96,29 +101,53 @@ public:
 		return d;
 	}
 
+	//float easeInSine(float t) {
+	//	float PI = 3.14159265;
+	//	return sin(t * PI / 2);
+	//}
+
+	float easeInSine(float t) {
+		return 1 - cos((t * PI) / 2);
+	}
+
+	float easeOutSine(float t) {
+		return sin((t * PI) / 2);
+	}
 
 	void update(float deltaTime) {
-
-		if (countTime >= 0) {
-			countTime = 0;
-			keyTime += 1;
+		if (Utils::mode == Utils::None) {
+			return;
 		}
 
-		tesetTime += deltaTime;
+		time += deltaTime;
 
-		//float pX = Utils::lerp(keyFrame.positionX, nextKeyFrame.positionX, (float)curTime / (float)5);
-
-
-		//cout << tesetTime << "\n";
-		if (tesetTime >= 0.1) {
-			tesetTime = 0;
-			sphereX = pointsToTravel[i].x;
-			sphereY = pointsToTravel[i].y;
-			i+= 1;
+		switch (Utils::mode)
+		{
+		case Utils::NORMAL:
+			i = Utils::lerp(0, pointsToTravel.size(), (time / 5.0f));
 			if (i >= pointsToTravel.size()) {
 				i = 0;
+				time = 0;
 			}
+			break;
+		case Utils::SinusoidalEasein:
+			i = Utils::lerp(0, pointsToTravel.size(), easeInSine(time / 5.0f));
+			if (i >= pointsToTravel.size()) {
+				return;
+			}
+			break;
+		case Utils::SinusoidalEaseout:
+			i = Utils::lerp(0, pointsToTravel.size(), easeOutSine(time / 5.0f));
+			if (i >= pointsToTravel.size()) {
+				return;
+			}
+			break;
 		}
+
+	
+		sphereX = pointsToTravel[i].x;
+		sphereY = pointsToTravel[i].y;
+		
 	}
 	
 	//this function take char input from the user

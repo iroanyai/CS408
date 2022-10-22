@@ -7,6 +7,20 @@ class Utils {
 
 public:
 
+
+    enum MODE
+    {
+        NORMAL,
+        SinusoidalEasein,
+        SinusoidalEaseout,
+        ParabolicEasein,
+        ParabolicEaseout,
+        None
+    };
+    static MODE mode ;
+
+
+
     template <size_t N>
     static void splitString(string(&arr)[N], string str)
     {
@@ -64,3 +78,5 @@ public:
         return sqrt(pow(p2.x - p1.x, 2) + pow(p2.y - p1.y, 2) * 1.0);
     }
 };
+
+Utils::MODE Utils::mode = None;

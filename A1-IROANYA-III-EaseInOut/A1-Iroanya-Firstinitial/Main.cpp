@@ -35,6 +35,37 @@ int main(int argc, char* argv[])
 {
     srand(time(NULL));
 
+	cout << "1. normal \n";
+    cout << "2. SinusoidalEasein \n";
+    cout << "3. SinusoidalEaseout \n";
+    cout << "4. ParabolicEasein \n";
+    cout << "5. ParabolicEaseout \n";
+
+    char input = 'c';
+    while (input == 'c')
+    {
+	    cout << "Input: ";
+	    cin >> input;
+
+	    switch (input)
+	    {
+	    case '1':
+		    Utils::mode = Utils::NORMAL;
+		    break;
+	    case '2':
+            Utils::mode = Utils::SinusoidalEasein;
+		    break;
+	    case '3':
+            Utils::mode = Utils::SinusoidalEaseout;
+		    break;
+	    case '4':
+            Utils::mode = Utils::ParabolicEasein;
+		    break;
+	    case '5':
+            Utils::mode = Utils::ParabolicEaseout;
+		    break;
+	    }
+    }
 
 
     glutInit(&argc, argv); 

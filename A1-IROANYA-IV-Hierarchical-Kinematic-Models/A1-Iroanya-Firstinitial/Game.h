@@ -68,10 +68,6 @@ public:
 
 		// for draw curve
 		glLineWidth(1);
-		Shapes::drawSpere(10, 10, 30, 3.0f);
+		Shapes::drawSpere(7, 15, 30, 1.0f);
 	}
-
-
-
-
 };

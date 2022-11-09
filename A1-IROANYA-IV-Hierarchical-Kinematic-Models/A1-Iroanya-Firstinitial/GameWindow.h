@@ -152,8 +152,9 @@ public:
 
 		// wait until time for next frame
 		waste_time = (g_next_frame_time - glutGet(GLUT_ELAPSED_TIME)) / 1000.0;
-		if (SHOW_FPS)
+		if (SHOW_FPS) {
 			std::cout << "Waste time in frame =  " << waste_time << " seconds " << std::endl;
+		}
 		if (waste_time > 0.0)
 			Sleep(10);
 
@@ -255,19 +256,19 @@ public:
 		glLightfv(GL_LIGHT0, GL_POSITION, light_direction);
 
 		// moving camera
-		gluLookAt(
-			// looking from:
-			cos(s_angle_around) * 40, s_height, sin(s_angle_around) * 40,
-			// looking at:
-			0.0, 0.0, 0.0,
-			// vector pointing up from camera 
-			// (to orient it right-side up):
-			0.0, 1.0, 0.0);
-
-		// still camera for screenshots
-		//gluLookAt(5.0, 20.0, 40.0,
-		//	0.0, -5.0, 0.0,
+		//gluLookAt(
+		//	// looking from:
+		//	cos(s_angle_around) * 40, s_height, sin(s_angle_around) * 40,
+		//	// looking at:
+		//	0.0, 0.0, 0.0,
+		//	// vector pointing up from camera 
+		//	// (to orient it right-side up):
 		//	0.0, 1.0, 0.0);
+
+		 //still camera for screenshots
+		gluLookAt(5.0, 20.0, 40.0,
+			0.0, -5.0, 0.0,
+			0.0, 1.0, 0.0);
 
 
 

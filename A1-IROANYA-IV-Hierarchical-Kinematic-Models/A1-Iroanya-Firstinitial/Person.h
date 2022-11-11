@@ -50,15 +50,17 @@ const int LIMB_UPPER_LEFT_ARM = 3;
 const int LIMB_UPPER_LEFT_LEG = 4;
 const int LIMB_LOWER_LEFT_ARM = 5;
 const int LIMB_LOWER_LEFT_LEG = 6;
-
 const int LIMB_UPPER_RIGHT_ARM = 7;
 const int LIMB_LOWER_RIGHT_ARM = 8;
-
 const int LIMB_UPPER_RIGHT_LEG = 9;
 const int LIMB_LOWER_RIGHT_LEG = 10;
-
 const int LIMB_LEFT_FEET = 11;
 const int LIMB_RIGHT_FEET = 12;
+const int LIMB_LEFT_EAR = 13;
+const int LIMB_RIGHT_EAR = 14;
+const int LIMB_NOSE = 15;
+const int LIMB_LEFT_EYE = 16;
+const int LIMB_RIGHT_EYE = 17;
 
 const int LIMBCOUNT = 13;
 
@@ -73,7 +75,6 @@ float theta[LIMBCOUNT] =
 
 	// feet
 	1.0,1.0
-
 };
 
 // amount by which each bone rotates per frame (in degrees)
@@ -269,114 +270,113 @@ public:
 		// base of neck is determined relative to the bottom of the
 		// torso.
 		glPushMatrix();
-		glTranslatef(0.0, TORSO_HEIGHT, 0.0);
-		glRotatef(theta[LIMB_NECK], 1.0, 0.0, 0.0);
-		display_neck();
+			glTranslatef(0.0, TORSO_HEIGHT, 0.0);
+			glRotatef(theta[LIMB_NECK], 1.0, 0.0, 0.0);
+			display_neck();
 
-		glPushMatrix();
-		glTranslatef(0.0, NECK_HEIGHT, 0.0);
-		glRotatef(theta[LIMB_HEAD], 0.0, 1.0, 0.0);
-		glPushMatrix();
-		glTranslatef(0.0, HEAD_RADIUS, 0.0); // node transform to compensate for model
-		display_head();
-
-			glPushMatrix(); // nose
-			glTranslatef(-NOSE_LENGTH/2, 0, 1.2);
-			glRotatef(0, 1.0, 0.0, 0.0);
-			display_nose();
-			glPopMatrix();
-
-			glPushMatrix(); // left ear
-			glTranslatef(-HEAD_RADIUS - EAR_RADIUS/2, 0, 0);
-			glRotatef(0, 1.0, 0.0, 0.0);
-			display_ear();
-			glPopMatrix();
-
-			glPushMatrix(); // right ear
-			glTranslatef(+HEAD_RADIUS - EAR_RADIUS / 2, 0, 0);
-			glRotatef(0, 1.0, 0.0, 0.0);
-			display_ear();
-			glPopMatrix();
-
-			glPushMatrix(); // left eye
-			glTranslatef(-EYE_LENGTH *3, 0.8, 1);
-			glRotatef(0, 1.0, 0.0, 0.0);
-			display_eye();
-			glPopMatrix();
-
-			glPushMatrix(); // right eye
-			glTranslatef(EYE_LENGTH * 3, 0.8, 1);
-			glRotatef(0, 1.0, 0.0, 0.0);
-			display_eye();
-			glPopMatrix();
-
-		glPopMatrix();
-
-		glPopMatrix();
-		glPopMatrix();
-
-		// left arm
-		glPushMatrix();
-		glTranslatef(TORSO_RADIUS, TORSO_HEIGHT - UPPER_ARM_RADIUS, 0.0);
-		glRotatef(theta[LIMB_UPPER_LEFT_ARM], 0.0, 0.0, 1.0);
-		display_upper_arm();
-
-		glPushMatrix();
-		glTranslatef(UPPER_ARM_LENGTH, 0.0, 0.0);
-		glRotatef(theta[LIMB_LOWER_LEFT_ARM], 0.0, 0.0, 1.0);
-		display_lower_arm();
-		glPopMatrix();
-		glPopMatrix();
-
-		// right arm
-		glPushMatrix();
-		glTranslatef(-TORSO_RADIUS, TORSO_HEIGHT - UPPER_ARM_RADIUS, 0.0);
-		glScalef(-1, 1, 1);
-		glRotatef(theta[LIMB_UPPER_RIGHT_ARM], 0.0, 0.0, 1.0);
-		display_upper_arm();
-
-		glPushMatrix();
-		glTranslatef(UPPER_ARM_LENGTH, 0.0, 0.0);
-		glScalef(1, 1, 1);
-		glRotatef(theta[LIMB_LOWER_RIGHT_ARM], 0.0, 0.0, 1.0);
-		display_lower_arm();
-		glPopMatrix();
-		glPopMatrix();
-
-		// left leg
-		glPushMatrix();
-		glTranslatef(TORSO_RADIUS - UPPER_LEG_RADIUS, 0.0, 0.0);
-		glRotatef(-theta[LIMB_UPPER_LEFT_LEG], 1.0, 0.0, 0.0);
-		display_upper_leg();
 			glPushMatrix();
-			glTranslatef(0.0, -UPPER_LEG_LENGTH, 0.0);
-			glRotatef(theta[LIMB_LOWER_LEFT_LEG], 1.0, 0.0, 0.0);
-			display_lower_leg();
+				glTranslatef(0.0, NECK_HEIGHT, 0.0);
+				glRotatef(theta[LIMB_HEAD], 0.0, 1.0, 0.0);
 				glPushMatrix();
-				glTranslatef(0.0, -LOWER_LEG_LENGTH , 0.0);
-				glRotatef(theta[LIMB_LEFT_FEET], 1.0, 0.0, 0.0);
-				display_feet();
+				glTranslatef(0.0, HEAD_RADIUS, 0.0); // node transform to compensate for model
+				display_head();
+
+					glPushMatrix(); // nose
+					glTranslatef(-NOSE_LENGTH/2, 0, 1.2);
+					glRotatef(0, 1.0, 0.0, 0.0);
+					display_nose();
+					glPopMatrix();
+
+					glPushMatrix(); // left ear
+					glTranslatef(-HEAD_RADIUS - EAR_RADIUS/2, 0, 0);
+					glRotatef(0, 1.0, 0.0, 0.0);
+					display_ear();
+					glPopMatrix();
+
+					glPushMatrix(); // right ear
+					glTranslatef(+HEAD_RADIUS - EAR_RADIUS / 2, 0, 0);
+					glRotatef(0, 1.0, 0.0, 0.0);
+					display_ear();
+					glPopMatrix();
+
+					glPushMatrix(); // left eye
+					glTranslatef(-EYE_LENGTH *3, 0.8, 1);
+					glRotatef(0, 1.0, 0.0, 0.0);
+					display_eye();
+					glPopMatrix();
+
+					glPushMatrix(); // right eye
+					glTranslatef(EYE_LENGTH * 3, 0.8, 1);
+					glRotatef(0, 1.0, 0.0, 0.0);
+					display_eye();
+					glPopMatrix();
+
+				glPopMatrix();
 				glPopMatrix();
 			glPopMatrix();
-		glPopMatrix();
 
-
-		// right leg
-		glPushMatrix();
-		glTranslatef(TORSO_RADIUS - UPPER_LEG_RADIUS * 3, 0.0, 0.0);
-		glScalef(-1, 1, 1);
-		glRotatef(-theta[LIMB_UPPER_RIGHT_LEG], 1.0, 0.0, 0.0);
-		display_upper_leg();
+			// left arm
 			glPushMatrix();
-			glTranslatef(0.0, -UPPER_LEG_LENGTH, 0.0);
-			glRotatef(theta[LIMB_LOWER_RIGHT_LEG], 1.0, 0.0, 0.0);
-			display_lower_leg();
+			glTranslatef(TORSO_RADIUS, TORSO_HEIGHT - UPPER_ARM_RADIUS, 0.0);
+			glRotatef(theta[LIMB_UPPER_LEFT_ARM], 0.0, 0.0, 1.0);
+			display_upper_arm();
+
+			glPushMatrix();
+			glTranslatef(UPPER_ARM_LENGTH, 0.0, 0.0);
+			glRotatef(theta[LIMB_LOWER_LEFT_ARM], 0.0, 0.0, 1.0);
+			display_lower_arm();
+			glPopMatrix();
+			glPopMatrix();
+
+			// right arm
+			glPushMatrix();
+			glTranslatef(-TORSO_RADIUS, TORSO_HEIGHT - UPPER_ARM_RADIUS, 0.0);
+			glScalef(-1, 1, 1);
+			glRotatef(theta[LIMB_UPPER_RIGHT_ARM], 0.0, 0.0, 1.0);
+			display_upper_arm();
+
+			glPushMatrix();
+			glTranslatef(UPPER_ARM_LENGTH, 0.0, 0.0);
+			glScalef(1, 1, 1);
+			glRotatef(theta[LIMB_LOWER_RIGHT_ARM], 0.0, 0.0, 1.0);
+			display_lower_arm();
+			glPopMatrix();
+			glPopMatrix();
+
+			// left leg
+			glPushMatrix();
+			glTranslatef(TORSO_RADIUS - UPPER_LEG_RADIUS, 0.0, 0.0);
+			glRotatef(-theta[LIMB_UPPER_LEFT_LEG], 1.0, 0.0, 0.0);
+			display_upper_leg();
 				glPushMatrix();
-				glTranslatef(0.0, -LOWER_LEG_LENGTH, 0.0);
-				glRotatef(theta[LIMB_RIGHT_FEET], 1.0, 0.0, 0.0);
-				display_feet();
+				glTranslatef(0.0, -UPPER_LEG_LENGTH, 0.0);
+				glRotatef(theta[LIMB_LOWER_LEFT_LEG], 1.0, 0.0, 0.0);
+				display_lower_leg();
+					glPushMatrix();
+					glTranslatef(0.0, -LOWER_LEG_LENGTH , 0.0);
+					glRotatef(theta[LIMB_LEFT_FEET], 1.0, 0.0, 0.0);
+					display_feet();
+					glPopMatrix();
 				glPopMatrix();
 			glPopMatrix();
+
+
+			// right leg
+			glPushMatrix();
+			glTranslatef(TORSO_RADIUS - UPPER_LEG_RADIUS * 3, 0.0, 0.0);
+			glScalef(-1, 1, 1);
+			glRotatef(-theta[LIMB_UPPER_RIGHT_LEG], 1.0, 0.0, 0.0);
+			display_upper_leg();
+				glPushMatrix();
+				glTranslatef(0.0, -UPPER_LEG_LENGTH, 0.0);
+				glRotatef(theta[LIMB_LOWER_RIGHT_LEG], 1.0, 0.0, 0.0);
+				display_lower_leg();
+					glPushMatrix();
+					glTranslatef(0.0, -LOWER_LEG_LENGTH, 0.0);
+					glRotatef(theta[LIMB_RIGHT_FEET], 1.0, 0.0, 0.0);
+					display_feet();
+					glPopMatrix();
+				glPopMatrix();
 		glPopMatrix();
 	}
 

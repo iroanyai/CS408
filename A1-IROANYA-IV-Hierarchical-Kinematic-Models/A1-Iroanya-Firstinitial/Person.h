@@ -89,6 +89,30 @@ float delta[LIMBCOUNT] =
 	0.0,0.0
 };
 
+float limbMin[LIMBCOUNT] =
+{
+	0,0, 0, 0,
+	0, 0, 0,
+
+	0,0,
+	0,0,
+
+	//feet
+	0,0
+};
+
+float limbMax[LIMBCOUNT] =
+{
+	45,100, 45, 100,
+	145, 45, 100,
+
+	85,45,
+	45,45,
+
+	//feet
+	45,45
+};
+
 class Person
 {
 public:

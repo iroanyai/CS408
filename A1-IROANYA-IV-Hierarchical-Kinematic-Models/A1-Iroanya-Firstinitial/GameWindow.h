@@ -146,7 +146,7 @@ public:
 		for (int i = 0; i < LIMBCOUNT; i++)
 		{
 			theta[i] += delta[i];
-			if ((theta[i] > 45.0) || (theta[i] < 0.0))
+			if ((theta[i] > limbMax[i]) || (theta[i] < limbMin[i]))
 				delta[i] = -delta[i];
 		}
 

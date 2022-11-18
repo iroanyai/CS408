@@ -20,7 +20,7 @@ public:
 			(int)(glutGet(GLUT_SCREEN_WIDTH) - WIDTH) / 2,
 			(int)(glutGet(GLUT_SCREEN_HEIGHT) - HEIGHT) / 2); 
 		glutInitWindowSize(WIDTH, HEIGHT);                       
-		glutCreateWindow("Animation test");       
+		glutCreateWindow("Gas test");       
 	}
 
 	void init(void (*updateCallBack)(void), 
@@ -34,6 +34,8 @@ public:
 
 		glEnable(GL_BLEND); //Enable blending.
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+		glPointSize(5);
 
 		//glutIdleFunc(idle);
 		glutSetKeyRepeat(GLUT_KEY_REPEAT_OFF);
@@ -61,7 +63,7 @@ public:
 		glLoadIdentity();            
 		//gluPerspective(60, (GLdouble)w / (GLdouble)h, 1.0, 1000.0);
 		glLoadIdentity();
-		glOrtho(0, WIDTH, HEIGHT, 0, 1000, -1000);
+		glOrtho(0, WIDTH, HEIGHT, 0, 1000, -1);
 		glMatrixMode(GL_MODELVIEW);
 		//glEnable(GL_DEPTH_TEST);
 	}
@@ -90,6 +92,7 @@ public:
 		game->update(dt);
 		game->draw();
 		glutSwapBuffers();
+
 	}
 
 	void start() {

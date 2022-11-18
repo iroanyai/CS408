@@ -9,6 +9,13 @@ class Shapes {
 
 public:
 	
+    static void drawPoint(float x, float y, float z,Color color) {
+        glColor4f(color.r,color.g,color.b,color.a);
+        glBegin(GL_POINTS);
+        glVertex3f(x, y, z);
+        glEnd();
+    }
+
     static void drawText(double x,double y,const char* text, Color textColor = Color(1, 1, 0.3f, 1)) {
         glColor4f(textColor.r, textColor.g, textColor.b, textColor.a);
         glRasterPos2i(x, y);

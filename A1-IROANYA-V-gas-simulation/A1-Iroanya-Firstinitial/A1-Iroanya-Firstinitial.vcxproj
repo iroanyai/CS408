@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="Camera2D.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Gas.h" />
     <ClInclude Include="Particle.h" />
     <ClInclude Include="GameWindow.h" />
     <ClInclude Include="Shapes.h" />

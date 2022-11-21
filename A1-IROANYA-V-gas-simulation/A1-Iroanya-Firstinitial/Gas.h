@@ -11,21 +11,32 @@ public:
 
 class Gas {
 
-	const int rows = 500;
-	const int cols = 500;
+	 int rows = 500;
+	 int cols = 500;
 
 	Cell*** cells;
 
 	float totalMass = 0;
 
+	int startX;
+	int startY;
+	int speed;
 public:
-	Gas() {
+	Gas(int startX, int startY,int rows,int cols) {
 		cells = new Cell** [rows];
 		for (int i = 0; i < rows; i++) {
 			cells[i] = new Cell*[cols];
 		}
+		// creative
+		this->startX = startX;
+		this->startY = startY;
+		this->rows = rows;
+		this->cols = cols;
 
 		init();
+
+		// creative
+		speed = 2 + (rand() % 10);
 	}
 
 
@@ -61,8 +72,15 @@ public:
 		}
 	}
 
-	void display(float dt) {
+	void update() { // creative
+		startX += speed;
+		if (startX >= 1280) {
+			startX = 0;
+			speed = 2 + (rand() % 10);
+		}
+	}
 
+	void display(float dt) {
 
 		for (int row = 0; row < rows; row++) {
 			for (int col = 0; col < cols; col++) {
@@ -82,16 +100,16 @@ public:
 				cell->color.b = density * density * density * 0.1;
 				cell->color.a = 1 - exp(-2 * col * cell->density / (3 * 3.14 * 40 * 40));
 				cell->color.a = density * 0.02;
-				int r = 1 + row;
-				int c = 1 + col;
+				int r = 1;
+				int c = 1 ;
 				
 
 				if (r < 0 || r > rows - 1 || c < 0 || c > col - 1) {
 					continue;
 				}
-	/*			Cell* tmp = cells[row][col];
-				cells[row][col] = cells[r][c];
-				cells[r][c] = tmp;*/
+				//Cell* tmp = cells[row][col];
+				//cells[row][col] = cells[r][c];
+				//cells[r][c] = tmp;
 
 				/*if (cell->density != 0) {
 					float k = 0.1;
@@ -109,6 +127,8 @@ public:
 		}
 
 		//glColor4f(0,1,0,1);
+		glPushMatrix();
+		glTranslatef(startX, startY, 1);
 		glBegin(GL_POINTS);
 		for (int row = 0; row < rows; row++) {
 			for (int col = 0; col < cols; col++) {
@@ -119,6 +139,7 @@ public:
 			}
 		}
 		glEnd();
+		glPopMatrix();
 	}
 
 };

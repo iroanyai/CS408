@@ -15,7 +15,6 @@ class Game {
 	bool startGame = false;
 
 	vector<Gas> gass;
-	int s = 3;
 
 public:
 
@@ -23,16 +22,22 @@ public:
 		camera = new Camera2D();
 		srand(time(nullptr));
 
-		for (int i = 0; i < s; i++) {
-			gass.push_back(Gas());
-		}
+		// creative
+		gass.push_back(Gas(20,20,100,100));
+		gass.push_back(Gas(500, 20,200,200));
+		gass.push_back(Gas(500, 500,100,100));
 
+		gass.push_back(Gas(100, 100, 500, 500));
+		gass.push_back(Gas(50, 500, 200, 200));
+		gass.push_back(Gas(50, 100, 200, 300));
 	}
 
 
 	void update(float deltaTime) {
 
-		for (int i = 0; i < s; i++) {
+		// creative
+		for (int i = 0; i < gass.size(); i++) {
+			gass[i].update();
 			gass[i].display(deltaTime);
 		}
 	}

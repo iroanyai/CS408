@@ -102,15 +102,18 @@ C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Shapes.h(148,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Shapes.h(148,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Utils.h(70,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(56,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(57,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(81,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(82,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(83,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(84,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(117,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(117,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Game.h(24,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(66,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(67,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(98,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(99,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(100,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(101,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(130,24): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(130,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(136,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Gas.h(136,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Game.h(23,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\Game.h(37,21): warning C4018: '<': signed/unsigned mismatch
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\GameWindow.h(84,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\GameWindow.h(85,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 C:\Users\PC\source\repos\A1-Iroanya-Firstinitial\A1-IROANYA-V-gas-simulation\A1-Iroanya-Firstinitial\GameWindow.h(102,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data

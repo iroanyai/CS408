@@ -2,4 +2,42 @@
 
 .Creative
 
-- Add multiple gass moving
+- My creative feature adds multiple gas moving
+
+My code can be found in
+
+Gas.h
+line 38- 40
+// creative
+		speed = 2 + (rand() % 10);
+	}
+  
+line 75-81
+void update() { // creative
+		startX += speed;
+		if (startX >= 1280) {
+			startX = 0;
+			speed = 2 + (rand() % 10);
+		}
+	}
+  
+  
+  Game.h
+  line 25 to 33
+  // creative
+		gass.push_back(Gas(20,20,100,100));
+		gass.push_back(Gas(500, 20,200,200));
+		gass.push_back(Gas(500, 500,100,100));
+
+		gass.push_back(Gas(100, 100, 500, 500));
+		gass.push_back(Gas(50, 500, 200, 200));
+		gass.push_back(Gas(50, 100, 200, 300));
+	}
+  
+  line 38 to 42
+  // creative
+		for (int i = 0; i < gass.size(); i++) {
+			gass[i].update();
+			gass[i].display(deltaTime);
+		}
+  

@@ -3,6 +3,7 @@ Student No: 200371504
 
 This is a link to access my files on github
 https://github.com/iroanyai/CS408/tree/master/A1-IROANYA-VI-sands
+https://github.com/iroanyai/CS408/tree/master/A6 (This contains a different question)
 
 To run the program
 i. Open "A1-IROANYA-VI-sands" folder (This is a folder containing all the assignment questions)
